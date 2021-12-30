@@ -1,13 +1,14 @@
 import './App.css';
-import HeaderComponent from './Component/HeaderComponent'; 
+import Main from './Component/MainComponent'; 
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
+    <BrowserRouter>
       <div>
-        <HeaderComponent />
+          <Main />
       </div>
-    </div>
+    </BrowserRouter>
   );
 }
 

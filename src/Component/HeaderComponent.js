@@ -37,27 +37,27 @@ class Header extends React.Component{
                 navbar
               >
                 <NavItem>
-                  <NavLink href="/components/">
+                  <NavLink href="/home">
                     Home
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="https://github.com/reactstrap/reactstrap">
+                  <NavLink href="/services">
                     Services
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/components/">
+                  <NavLink href="/aboutus">
                     About Us
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/components/">
+                  <NavLink href="/contactus">
                     Contact Us
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/components/">
+                  <NavLink href="/register">
                     Registration
                   </NavLink>
                 </NavItem>
