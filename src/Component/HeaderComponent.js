@@ -72,7 +72,7 @@ class Header extends React.Component{
                   >
                     Login
                   </DropdownToggle>
-                  <DropdownMenu right>
+                  <DropdownMenu end>
                     <DropdownItem>
                       User
                     </DropdownItem>
