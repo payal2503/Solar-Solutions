@@ -1,21 +1,3 @@
-#header-carousel {
-  height: 240px;
-}#cazza1 {
-  height: 240px;
-  background-image: url(/src/images/silder1.jpg);
-  background-position: center center;
-  background-size: cover;
-}#cazza2 {
-  height: 240px;
-  background-image: url(/src/images/silder1.jpg);
-  background-position: center center;
-  background-size: cover;
-}#cazza3 {
-  height: 240px;
-  background-image: url(/src/images/silder1.jpg);
-  background-position: center center;
-  background-size: cover;
-}
 /* Makes images fully responsive */
 
 .img-responsive,

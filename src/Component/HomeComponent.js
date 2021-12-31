@@ -1,29 +1,51 @@
-import React , {Component} from 'react';
-import ReactDOM from "react-dom";
-import Carousel from "react-elastic-carousel";
-import Item from "./Item";
-import '../App.css';
-import silder1 from '../images/silder1.jpg';
-import silder2 from '../images/slider2.jpg';
-import silder3 from '../images/slider3.jpg';
+ import React from 'react';
+import { Carousel } from 'react-bootstrap';
 
-const items = [
-    {
-        src: {silder1},
-        caption: 'Slide 1',
-        header: 'Slide 1 Header'
-    },
-    {
-        src: {silder2},
-        altText: 'Slide 2',
-        caption: 'Slide 2',
-        header: 'Slide 2 Header'
-    },
-    {
-        src: {silder2},
-      
-      altText: 'Slide 3',
-      caption: 'Slide 3',
-      header: 'Slide 3 Header'
-    }
-  ];
+import slider1 from '../images/slider6.jpg';
+import slider2 from '../images/slider2.jpg';
+import slider3 from '../images/slider1.jpg';
+
+const Home = () => {
+  return (
+    <Carousel fade={true} pause={false}>
+      <Carousel.Item interval={8000}>
+        <img
+          className="d-block w-80"
+          src={slider1}
+          alt="First slide"
+          width="1095"
+          height={340}
+        />
+        <Carousel.Caption>
+          <h3>First slide label</h3>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item interval={8000}>
+        <img
+          className="d-block w-80"
+          src={slider2}
+          alt="Third slide"
+          width="1095"
+          height={340}
+        />
+        <Carousel.Caption>
+          <h3>Second slide label</h3>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item interval={8000}>
+        <img
+          className="d-block w-80 h-80"
+          src={slider3}
+          alt="Third slide"
+          width="1095"
+          height={340}
+        />
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+  )
+}
+
+export default Home;

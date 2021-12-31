@@ -1,6 +1,6 @@
 import React , {Component} from 'react';
 
-class ServiceUs extends Component{
+class Services extends Component{
     render(){
         return(
             <div>
@@ -9,4 +9,4 @@ class ServiceUs extends Component{
         );    
     }
 }
-export default ServiceUs;
+export default Services;
