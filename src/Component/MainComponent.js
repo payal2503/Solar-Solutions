@@ -6,6 +6,7 @@ import ContactUs from '../Pages/ContactUs';
 import Home from '../Pages/Home';
 import Services from '../Pages/Services';
 import Registration from '../Pages/Registration';
+import Footer from './FooterComponent';
 
 class Main extends React.Component {
     render(){
@@ -20,6 +21,7 @@ class Main extends React.Component {
                 <Route path="/aboutus" component={AboutUs} />
                 <Redirect to = "/home"/>
               </Switch>
+              <Footer />
             </>
         )
     }

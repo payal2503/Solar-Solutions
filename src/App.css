@@ -17,7 +17,8 @@
 }
 
 .carousel-caption {
-  background-color: rgba(0,0,0,0.5,0);
+  background-color: rgba(0,0,0,0,.5);
+  vertical-align: middle;
   position: absolute;
   left: 0;
   right: 0;
@@ -45,4 +46,9 @@
   background-image: none;
 }
 
+.footer{
+  background-color: #438acc;
+  margin:0px auto;
+  padding: 20px 0px 20px 0px;
+}
 
